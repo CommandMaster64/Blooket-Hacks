@@ -1,5 +1,5 @@
 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].name = 'nut';
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].rate = 1;
+Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].rate = 999;
 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].title = "Crazy Acorns";
 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].data.dmg = 999;
 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.levelUpOptions[1].data.speed = 999;
