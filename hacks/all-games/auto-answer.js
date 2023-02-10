@@ -6,5 +6,8 @@ function answer() {
             }
         }
     }
+    if (!!document.getElementsByClassName("arts__regularBody___1TM6E-camelCase styles__background___2GulD-camelCase")[0]) {
+        document.getElementsByClassName("arts__regularBody___1TM6E-camelCase styles__background___2GulD-camelCase")[0].click();
+    }
 }
 setInterval(answer, 1);
