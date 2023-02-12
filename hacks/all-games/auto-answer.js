@@ -1,3 +1,4 @@
+// THIS DOES NOT WORK IN BATTLE ROYAL
 function answer() {
     if (!!document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[0]) {
         for (let i = 0; i < document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase").length; i++) {
