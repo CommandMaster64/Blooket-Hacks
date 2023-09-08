@@ -1,6 +1,6 @@
-for (let i = 0; i < Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.towers.length; i++) {
-    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.towers[i].range = 999;
-    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.towers[i].damage = 999;
-    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.towers[i].fullCd = 0;
-    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.p5._targetFrameRate = 999;
+for (let i = 0; i < Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers.length; i++) {
+    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].range = 999;
+    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].damage = 999;
+    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].fullCd = 0;
+    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.p5._targetFrameRate = 999;
 }
