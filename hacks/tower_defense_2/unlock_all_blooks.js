@@ -1,1 +1,1 @@
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.unlockedTowers = ['chick', 'bird', 'owl', 'goldfish', 'penguin', 'wizard', 'pig', 'dragon', 'alien', 'gorilla', 'squirrel', 'moose', 'megaBot', 'peacock'];
+Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.unlockedTowers = ['chick', 'bird', 'owl', 'goldfish', 'penguin', 'wizard', 'pig', 'dragon', 'alien', 'gorilla', 'squirrel', 'moose', 'megaBot', 'peacock'];
