@@ -1,3 +1,6 @@
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
 const setMoney = (money) => {
-    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.cafeCash = money;
+    obj.state.cafeCash = money;
 };
