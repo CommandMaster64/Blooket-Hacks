@@ -1,6 +1,9 @@
-for (let i = 0; i < Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers.length; i++) {
-    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].range = 999;
-    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].damage = 999;
-    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.towers[i].fullCd = 0;
-    Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.p5._targetFrameRate = 999;
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
+for (let i = 0; i < obj.towers.length; i++) {
+    obj.towers[i].range = 999;
+    obj.towers[i].damage = 999;
+    obj.towers[i].fullCd = 0;
+    obj.p5._targetFrameRate = 999;
 }
