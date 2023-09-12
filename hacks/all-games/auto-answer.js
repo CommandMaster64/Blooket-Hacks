@@ -1,11 +1,11 @@
 // THIS DOES NOT WORK IN BATTLE ROYAL
-const obj = (() => {
+const obj = () => {
     return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
-})();
+};
 function answer() {
     if (!!document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[0]) {
         for (let i = 0; i < document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase").length; i++) {
-            if (document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[i].innerText == obj.state.question.correctAnswers[0]) {
+            if (document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[i].innerText == obj().state.question.correctAnswers[0]) {
                 document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[i].click();
             }
         }
