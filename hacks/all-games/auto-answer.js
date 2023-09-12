@@ -1,9 +1,6 @@
 // THIS DOES NOT WORK IN BATTLE ROYAL
 const obj = (() => {
-    if (document.getElementsByClassName("arts__body___3acI_-camelCase")[0] == document.getElementById("body"))
-        return Object.values(document.querySelector("#body"))[1].children[0]._owner.stateNode;
-    else
-        return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode.state;
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
 })();
 function answer() {
     if (!!document.getElementsByClassName("styles__answerContainer___3WS-k-camelCase")[0]) {
