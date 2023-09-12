@@ -1,1 +1,4 @@
-const giveTokens = (tokens) => Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[1]._owner.stateNode.state.tokens = tokens;
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
+const giveTokens = (tokens) => obj.state.tokens = tokens;
