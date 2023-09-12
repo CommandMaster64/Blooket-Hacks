@@ -1,4 +1,7 @@
-Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.gold = "b";
-Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.gold2 = "b";
-Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.choices[0].type = "swap";
-Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.choices[0].text = "swap";
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
+obj.state.gold = "b";
+obj.state.gold2 = "b";
+obj.state.choices[0].type = "swap";
+obj.state.choices[0].text = "swap";
