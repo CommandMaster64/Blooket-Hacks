@@ -1,1 +1,4 @@
-Object.values(document.querySelector("#aeffdabedffdb > div > div"))[1].children[0]._owner.stateNode.state.unlockedTowers = ['chick', 'bird', 'owl', 'goldfish', 'penguin', 'wizard', 'pig', 'dragon', 'alien', 'gorilla', 'squirrel', 'moose', 'megaBot', 'peacock'];
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
+obj.state.unlockedTowers = ['chick', 'bird', 'owl', 'goldfish', 'penguin', 'wizard', 'pig', 'dragon', 'alien', 'gorilla', 'squirrel', 'moose', 'megaBot', 'peacock'];
