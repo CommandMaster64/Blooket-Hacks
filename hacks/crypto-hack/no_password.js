@@ -1,1 +1,4 @@
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.password = "";
+const obj = (() => {
+    return Object.values(document.getElementsByClassName("arts__body___3acI_-camelCase")[0])[1].children[0]._owner.stateNode;
+})();
+obj.state.password = "";
